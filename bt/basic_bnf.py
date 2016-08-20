@@ -159,7 +159,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(TestStrategy)
     
     # data = MyOHLC(dataname='/home/jvdeepak/data/BNF_data_1min.csv')
-    datafile = MyOHLC(dataname='BNF_data_1min.csv')
+    datafile = MyOHLC(dataname='C:\\Users\\Deepak\\Documents\\GitHub\\backtest\\bt\\BNF_data_1min.csv')
 
     # Add the Data Feed to Cerebro
     cerebro.adddata(datafile, name="BNF")
